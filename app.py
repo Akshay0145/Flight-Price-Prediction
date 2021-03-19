@@ -274,12 +274,12 @@ def predict():
             d_Hyderabad = 0
             d_Kolkata = 0
 
-        elif (Source == 'New_Delhi'):
+       ''' elif (Source == 'New_Delhi'):
             d_Cochin = 0
             d_Delhi = 0
             d_New_Delhi = 1
             d_Hyderabad = 0
-            d_Kolkata = 0
+            d_Kolkata = 0'''
 
         elif (Source == 'Hyderabad'):
             d_Cochin = 0
