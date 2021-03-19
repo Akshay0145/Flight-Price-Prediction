@@ -263,14 +263,14 @@ def predict():
         if (Source == 'Cochin'):
             d_Cochin = 1
             d_Delhi = 0
-            d_New_Delhi = 0
+            #d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
         
         elif (Source == 'Delhi'):
             d_Cochin = 0
             d_Delhi = 1
-            d_New_Delhi = 0
+           # d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
 
@@ -284,21 +284,21 @@ def predict():
         elif (Source == 'Hyderabad'):
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
+           # d_New_Delhi = 0
             d_Hyderabad = 1
             d_Kolkata = 0
 
         elif (Source == 'Kolkata'):
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
+         #   d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 1
 
         else:
             d_Cochin = 0
             d_Delhi = 0
-            d_New_Delhi = 0
+         #   d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
 
